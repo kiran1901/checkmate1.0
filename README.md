@@ -1,0 +1,3 @@
+# CheckMate
+
+npm run dev
