@@ -54,8 +54,8 @@ export default function App() {
 
   return (
     <>
-      <TodoAdditionForm addTodoProp={addTodo}/>
       <h1 className="header">Todo List</h1>
+      <TodoAdditionForm addTodoProp={addTodo}/>
       <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo}/>
     </>
   )
